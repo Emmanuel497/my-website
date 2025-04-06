@@ -1,0 +1,65 @@
+/* Base styles (same as your current site style) */
+@import url('styles.css'); /* Import your main styles if modular */
+
+/* Add page-specific animations/content */
+.welcome {
+  background: linear-gradient(to right, #111, #1a1a1a);
+  padding: 100px 20px;
+  text-align: center;
+  animation: fadeInHero 1s ease-out;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.luxury-highlights {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #141414;
+  animation: fadeInSection 1.2s ease;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 16px;
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.newsletter {
+  background: #0d0d0d;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.newsletter form {
+  margin-top: 20px;
+}
+
+.newsletter input {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+  margin-right: 10px;
+}
