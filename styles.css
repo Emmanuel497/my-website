@@ -275,6 +275,26 @@
   .footer-links a:hover {
     color: #fff;
   }
+  .footer-email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 5px 0 0;
+  line-height: 1;
+}
+
+.footer-email svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.footer-email a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
   
   /* Responsive Tweaks */
   @media (min-width: 768px) {
